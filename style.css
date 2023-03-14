@@ -1,0 +1,129 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    position: relative;
+width: 1440px;
+height: 810px;
+
+/* Dark Blue */
+
+background: #202733;
+}
+.card{
+    width: 540px;
+    height: 332px;
+    margin-top: 223px;
+    margin-left: 450px;
+    background: #313A48;
+box-shadow: 30px 50px 80px rgba(0, 0, 0, 0.100202);
+border-radius: 15px;
+}
+.p1{
+   
+height: 18px;
+
+
+/* Heading */
+
+font-family: 'Manrope';
+font-style: normal;
+font-weight: 800;
+font-size: 13px;
+line-height: 18px;
+padding-top: 48px;
+margin-left: 208.5px;
+
+color: #53FFAA;
+}
+.p2{
+   
+    margin-top: 24px;
+    margin-left: 48px;
+    font-family: 'Manrope';
+font-style: normal;
+font-weight: 800;
+font-size: 28px;
+line-height: 38px;
+
+
+/* Light Cyan */
+
+color: #CEE3E9;
+}
+.im1{
+    width: 444px;
+height: 16px;
+margin-top: 40px;
+margin-left: 48px;
+}
+.card2{
+    position: absolute;
+width: 64px;
+height: 64px;
+top: 300px;
+left: 688px;
+background: #53FFAA;
+border-radius: 50%;
+/* box-shadow: 0px 0px 40px #53FFAA; */
+}
+.logo{
+    margin-top: 20px;
+    margin-left: 20px;
+}
+.card2:hover{
+    box-shadow: 0px 0px 40px #53FFAA;
+}
+@media screen and (max-width: 376px){
+    body{
+        width: 375px;
+        height: 667px;
+    }
+    .card{
+        background: #313A48;
+        box-shadow: 30px 50px 80px rgba(0, 0, 0, 0.100202);
+        border-radius: 10px;
+        width: 343px;
+        height: 315px;
+        margin-top: 120px;
+        margin-left: 16px;
+
+    }
+    .p1{
+        height: 15px;
+
+
+        /* Heading */
+
+        font-family: 'Manrope';
+        font-style: normal;
+        font-weight: 800;
+        font-size: 11px;
+        line-height: 15px;
+        padding-top: 40px;
+        margin-left: 119px;
+
+        color: #53FFAA;
+    }
+    .p2{
+        margin-top: 24px;
+        margin-left: 24px;
+        font-family: 'Manrope';
+        font-style: normal;
+        font-weight: 800;
+        font-size: 24px;
+        line-height: 33px;
+    }
+    .im1{
+        width: 295px;
+        height: 16px;
+        margin-top: 24px;
+        margin-left: 24px;
+    }
+    .card2{
+        top: 283px;
+        left: 155px;
+    }
+}
